@@ -31,5 +31,3 @@ for i in names:
 str1 = ["word", "table", "hand", "hard", "small", "big", "chair", "laptop"]
 
 str1[2, 6] = "foot":"stand" 
-
-
