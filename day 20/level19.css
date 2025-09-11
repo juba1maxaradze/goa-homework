@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: red;
+    border: red double 1px;
+}
+
+header{
+    background-color: black;
+    color: red;
+    text-align:center;
+}
+
+main{
+    background-color: black;
+    color: red;   
+}
+
+button{
+    background-color: black;
+    color: red;
+    border: double red 3px;
+}
