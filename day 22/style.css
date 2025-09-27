@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    border: red 1px double;
+}
+
+button{
+    color: red;
+    border: red solid 1px;
+    background-color: black;
+}
+
+label{
+    color: red;
+}
+
+h1{
+    text-align: center;
+    color:red
+}
+
+table{
+    border: red 1px solid;
+    color: red;
+    text-align: center;
+}
+
+tr{
+    border: red 1px solid;
+    color: red;
+}
+
+th{
+    border: red 1px solid;
+    color: red;
+}
+td{
+    border: red 1px solid;
+    color: red;
+}
+
+input{
+    color: red;
+    background-color: black;
+    border: red double 1px;
+}
+
+form{
+    text-align: center;
+}
+
+.img{
+    border: red solid 3px;
+}
+
+footer{
+    color: red;
+    text-align: center;
+}
+
