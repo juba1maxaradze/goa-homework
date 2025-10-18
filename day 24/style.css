@@ -1,0 +1,25 @@
+/* 5)შექმენით საიტი სადაც გექნებათ ინფორმაცია rgb / hex კოდებზე და ასწავლით მომხმარებელს ამ ორი ფერის სისტემის შესახე */
+
+body{
+    background-color: rgb(0, 0,0);
+    border: 1px ridge #ff0000;
+}
+
+header{
+    text-align: center;
+    text-decoration: overline solid 1px red;
+    color:red;
+}
+
+main{
+    border: #ff0000 solid;
+    color: rgb(255, 0, 0);
+    text-decoration: underline double #ff0000;
+    text-align: justify;
+}
+
+footer{
+    color:rgb(255, 0, 0 );
+    text-align: center;
+}
+
