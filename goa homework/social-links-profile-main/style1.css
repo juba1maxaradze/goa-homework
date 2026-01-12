@@ -1,0 +1,82 @@
+/* ცვლადები ფერებისთვის */
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--grey-900);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: var(--white);
+  padding: 20px;
+}
+
+.profile-card {
+  background-color: var(--grey-800);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 380px;
+  width: 100%;
+}
+
+.avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.location {
+  color: var(--green);
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.bio {
+  font-size: 14px;
+  margin-bottom: 24px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.link-btn {
+  background-color: var(--grey-700);
+  color: var(--white);
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.link-btn:hover {
+  background-color: var(--green);
+  color: var(--grey-900);
+}

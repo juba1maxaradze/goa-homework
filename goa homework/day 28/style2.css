@@ -1,0 +1,40 @@
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  border: 1px solid black;
+}
+
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.cell {
+  flex: 1; 
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+
+.big-cell {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+
+.column-group {
+  display: flex;
+  flex-direction: column;
+  flex: 2; 
+}
+
+
+.full-width {
+  flex: 1;
+}

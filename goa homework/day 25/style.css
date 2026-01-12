@@ -1,0 +1,41 @@
+a:link {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: gray;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+    transform: scale(1.1);
+}
+
+button:active {
+    border: none;
+}
+
+h1 {
+    text-decoration: underline;
+    color: red;
+}
+
+p {
+    text-decoration: underline;
+}
+
+.serif-text {
+    font-family: "Times New Roman", serif;
+}
+
+.sans-text {
+    font-family: Arial, sans-serif;
+}

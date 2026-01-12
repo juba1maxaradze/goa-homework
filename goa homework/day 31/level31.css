@@ -1,0 +1,58 @@
+/* დავალება 1 */
+article {
+    width: 220px;
+    background-color: lightblue;
+    padding: 20px 0;
+    border: 1px dashed black;
+    margin-bottom: 30px;
+}
+
+/* დავალება 2 */
+.box {
+    width: 120px;
+    height: 60px;
+    background-color: lightgray;
+    margin-bottom: 15px;
+}
+
+.padding-box {
+    padding: 20px;
+}
+
+.border-box {
+    border: 3px solid red;
+}
+
+.margin-box {
+    margin: 30px;
+}
+
+/* დავალება 3 */
+.img-one {
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.img-two {
+    border-radius: 5px 30px 50px 10px;
+}
+
+/* დავალება 4 */
+.parent {
+    width: 300px;
+    height: 200px;
+    background-color: lightgreen;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.child {
+    width: 80px;
+    height: 50px;
+    background-color: orange;
+    margin: 10px;
+}
+
+.child-two {
+    background-color: pink;
+}
