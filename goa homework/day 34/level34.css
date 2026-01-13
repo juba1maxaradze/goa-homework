@@ -1,0 +1,79 @@
+.boxes {
+  display: grid;
+  /* ვქმნით 3 სვეტს და 3 რიგს */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  background-color: black;
+  padding: 20px;
+  
+  
+  grid-template-areas: 
+    "one one two"
+    "three three two"
+    "four five five";
+}
+
+.box {
+  padding: 40px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.box-1 { 
+    grid-area: one; background-color: #00ffff; color: black; 
+}
+.box-2 { 
+    grid-area: two; background-color: #ff00ff; color: black; 
+}
+.box-3 { 
+    grid-area: three; background-color: #ffff00; color: black;
+ }
+.box-4 { 
+    grid-area: four; background-color: #00ff66; color: black; 
+}
+.box-5 { 
+    grid-area: five; background-color: #ff6600; color: black; 
+}
+
+
+.grid-container {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  grid-template-rows: auto;
+  gap: 15px;
+  padding: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  height: 200px; 
+}
+
+
+
+.item-teal { background-color: #00897b; }
+
+
+.item-red { 
+  background-color: #c04e3b;
+  grid-column: 2 / 3; 
+}
+
+.item-olive { background-color: #a4ad0e; }
+
+.item-blue { background-color: #0081cf; }
+
+
+.item-orange { 
+  background-color: #e68310;
+  grid-column: 2 / 3;
+}
+
+.item-purple { background-color: #8e65cf; }

@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(243, 231, 216);
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.recipe-container {
+  background-color: rgb(255, 255, 255);
+  max-width: 736px;
+  padding: 40px;
+  border-radius: 24px;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-family: 'Young Serif', serif;
+  color: rgb(49, 47, 46);
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-family: 'Young Serif', serif;
+  color: rgb(133, 70, 50);
+  margin-bottom: 24px;
+}
+
+.prep-time {
+  background-color: rgb(255, 247, 250);
+  padding: 28px;
+  border-radius: 12px;
+  margin: 32px 0;
+}
+
+.prep-time h3 {
+  color: rgb(122, 40, 72);
+  margin-bottom: 16px;
+}
+
+ul, ol {
+  padding-left: 24px;
+  color: rgb(95, 87, 81);
+}
+
+li {
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+li::marker {
+  color: rgb(133, 70, 50);
+  font-weight: bold;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgb(231, 222, 216);
+  margin: 32px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 24px;
+}
+
+tr {
+  border-bottom: 1px solid rgb(231, 222, 216);
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+td {
+  padding: 12px 24px;
+  color: rgb(95, 87, 81);
+}
+
+.stat {
+  color: rgb(133, 70, 50);
+  font-weight: bold;
+}
