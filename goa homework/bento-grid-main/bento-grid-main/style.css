@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: hsl(0, 0%, 96%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.bento-grid {
+  display: grid;
+  gap: 1.5rem;
+  max-width: 1100px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+}
+
+
+.card {
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.purple-card { background-color: hsl(256, 67%, 59%); color: white; }
+.light-purple-card { background-color: hsl(254, 88%, 90%); }
+.yellow-card { background-color: hsl(39, 100%, 71%); }
+.white-card { background-color: hsl(0, 0%, 100%); }
+
+.yellow-text { color: hsl(39, 100%, 71%); }
+
+.hero {
+  grid-column: 2 / 4;
+  text-align: center;
+}
+
+.schedule {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3; 
+}
+
+.followers {
+  grid-column: 4 / 5;
+  grid-row: 1 / 4; 
+}
+
+.ai-content {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.grow-followers {
+  grid-column: 2 / 4;
+  flex-direction: row; 
+  align-items: center;
+}
+
+
+h1 { font-size: 2.5rem; font-weight: 600; line-height: 1; }
+h3 { font-size: 1.25rem; font-weight: 600; letter-spacing: -0.5px; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+}
+
+
+@media (max-width: 800px) {
+  .bento-grid {
+    grid-template-columns: 1fr; 
+  }
+  
+  .hero, .schedule, .followers, .ai-content, .grow-followers {
+    grid-column: auto;
+    grid-row: auto;
+  }
+}

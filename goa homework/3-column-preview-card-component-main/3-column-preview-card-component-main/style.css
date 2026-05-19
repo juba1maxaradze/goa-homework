@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
+    padding: 80px 24px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 920px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card {
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    font-size: 2.5rem;
+    margin: 35px 0;
+}
+
+.card p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 80px;
+}
+
+.card button {
+    background-color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    padding: 12px 28px;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.orange { background-color: hsl(31, 77%, 52%); }
+.cyan { background-color: hsl(184, 100%, 22%); }
+.dark-cyan { background-color: hsl(179, 100%, 13%); }
+
+.orange button { color: hsl(31, 77%, 52%); }
+.cyan button { color: hsl(184, 100%, 22%); }
+.dark-cyan button { color: hsl(179, 100%, 13%); }
+
+.card button:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%) !important;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+    
+    .card p {
+        margin-bottom: 40px;
+    }
+}
